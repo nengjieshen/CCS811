@@ -27,6 +27,7 @@
 "src/IO_input.o"
 "src/IO_output.o"
 "src/Timer.o"
+"src/Usart.o"
 "src/main.o"
 "src/oled.o"
 "src/sys.o"

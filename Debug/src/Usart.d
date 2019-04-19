@@ -1,4 +1,4 @@
-src/IO_input.o: ../src/IO_input.c ../src/IO_input.h ../src/Global.h \
+src/Usart.o: ../src/Usart.c ../src/Usart.h ../src/Global.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/CMSIS/device/stm32f10x.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/CMSIS/core/core_cm3.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/CMSIS/device/system_stm32f10x.h \
@@ -28,10 +28,10 @@ src/IO_input.o: ../src/IO_input.c ../src/IO_input.h ../src/Global.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc/misc.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/inc/stm32f10x_it.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc/misc.h ../src/sys.h \
- ../src/Delay.h ../src/IO_output.h ../src/oled.h ../src/ADC.h \
- ../src/Timer.h ../src/Usart.h
+ ../src/Delay.h ../src/IO_input.h ../src/IO_output.h ../src/oled.h \
+ ../src/ADC.h ../src/Timer.h
 
-../src/IO_input.h:
+../src/Usart.h:
 
 ../src/Global.h:
 
@@ -97,6 +97,8 @@ E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc/misc.h:
 
 ../src/Delay.h:
 
+../src/IO_input.h:
+
 ../src/IO_output.h:
 
 ../src/oled.h:
@@ -104,5 +106,3 @@ E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc/misc.h:
 ../src/ADC.h:
 
 ../src/Timer.h:
-
-../src/Usart.h:

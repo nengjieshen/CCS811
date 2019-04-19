@@ -29,7 +29,7 @@ src/IO_output.o: ../src/IO_output.c ../src/IO_output.h ../src/Global.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/inc/stm32f10x_it.h \
  E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc/misc.h ../src/sys.h \
  ../src/Delay.h ../src/IO_input.h ../src/oled.h ../src/ADC.h \
- ../src/Timer.h
+ ../src/Timer.h ../src/Usart.h
 
 ../src/IO_output.h:
 
@@ -104,3 +104,5 @@ E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc/misc.h:
 ../src/ADC.h:
 
 ../src/Timer.h:
+
+../src/Usart.h:

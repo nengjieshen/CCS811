@@ -30,9 +30,11 @@ int main(void)
 	ADCInit();
 	time3_init(7199,9999);
 	NVIC_INIT();
+	UsartInit();
 
 	while(1)
 	{
-		Sensor_Value = GetADCValue();
+		SendData(0x80);
+		delay_ms(1000);
 	}
 }

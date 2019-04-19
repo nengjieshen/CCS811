@@ -9,6 +9,7 @@ C_SRCS += \
 ../src/IO_input.c \
 ../src/IO_output.c \
 ../src/Timer.c \
+../src/Usart.c \
 ../src/main.c \
 ../src/oled.c \
 ../src/sys.c \
@@ -21,6 +22,7 @@ OBJS += \
 ./src/IO_input.o \
 ./src/IO_output.o \
 ./src/Timer.o \
+./src/Usart.o \
 ./src/main.o \
 ./src/oled.o \
 ./src/sys.o \
@@ -33,6 +35,7 @@ C_DEPS += \
 ./src/IO_input.d \
 ./src/IO_output.d \
 ./src/Timer.d \
+./src/Usart.d \
 ./src/main.d \
 ./src/oled.d \
 ./src/sys.d \

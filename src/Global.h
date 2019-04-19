@@ -14,5 +14,6 @@
 #include "oled.h"
 #include "ADC.h"
 #include "Timer.h"
+#include "Usart.h"
 
 #endif
