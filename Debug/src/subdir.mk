@@ -1,0 +1,52 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ADC.c \
+../src/Delay.c \
+../src/IO_input.c \
+../src/IO_output.c \
+../src/Timer.c \
+../src/main.c \
+../src/oled.c \
+../src/sys.c \
+../src/syscalls.c \
+../src/system_stm32f10x.c 
+
+OBJS += \
+./src/ADC.o \
+./src/Delay.o \
+./src/IO_input.o \
+./src/IO_output.o \
+./src/Timer.o \
+./src/main.o \
+./src/oled.o \
+./src/sys.o \
+./src/syscalls.o \
+./src/system_stm32f10x.o 
+
+C_DEPS += \
+./src/ADC.d \
+./src/Delay.d \
+./src/IO_input.d \
+./src/IO_output.d \
+./src/Timer.d \
+./src/main.d \
+./src/oled.d \
+./src/sys.d \
+./src/syscalls.d \
+./src/system_stm32f10x.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/%.o: ../src/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MCU GCC Compiler'
+	@echo $(PWD)
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I"E:/[7]STM/CCS811_EC/CCS811_EC/StdPeriph_Driver/inc" -I"E:/[7]STM/CCS811_EC/CCS811_EC/Drivers" -I"E:/[7]STM/CCS811_EC/CCS811_EC/inc" -I"E:/[7]STM/CCS811_EC/CCS811_EC/CMSIS/device" -I"E:/[7]STM/CCS811_EC/CCS811_EC/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
